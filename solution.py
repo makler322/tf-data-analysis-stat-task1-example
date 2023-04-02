@@ -6,5 +6,5 @@ chat_id = 419670097  # Ваш chat ID, не меняйте название пе
 
 
 def solution(x: np.array) -> float:
-    ans_arr = np.exp(x)
+    ans_arr = np.log(x - 299)
     return ans_arr.mean()  # Ваш ответ
